@@ -1,0 +1,28 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "api for blog project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.4.3",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
